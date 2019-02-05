@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     #self.split(/\W\B/).count
-    self.split(/[?.!]/).count
+    self.split(/\w[?.!]/).count
     #binding.pry
   end
 end
